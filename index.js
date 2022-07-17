@@ -1,5 +1,5 @@
 const form = document.addItem
-removeToDo = document.querySelectorAll('.removeBtn')
+//removeToDo = document.querySelectorAll('.removeBtn')
 
 
 form.addEventListener("submit", (e) => {
@@ -27,12 +27,6 @@ removeButton.addEventListener('click', function() {
     listItem.remove()
 
     //Edit button - user input should pop-up with the list Item already on
-const editButton = document.createElement("button")
-    editButton.textContent = "Edit"
-    listItem.appendChild(editButton)
-//Edit button eventListener
-editButton.addEventListener('click', function() {
-    listItem.ed
+    
 })
-})    
 })
